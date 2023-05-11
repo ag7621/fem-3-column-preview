@@ -1,0 +1,27 @@
+:root {
+
+    /* colors */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dk-cyan: hsl(184, 100%, 22%);
+    --very-dk-cyan: hsl(179, 100%, 13%);
+
+    --white-alpha: hsla(0, 0%, 100%, 0.75);
+    --very-lt-gray: hsl(0, 0%, 95%);
+
+    /* components */
+    --clr-card-bg-sedans: var(--bright-orange);
+    --clr-card-bg-suvs: var(--dk-cyan);
+    --clr-card-bg-luxury: var(--very-dk-cyan);
+    --clr-main-bg: var(--very-lt-gray);
+
+    --clr-text-primary: var(--white-alpha);
+    --clr-text-heading: var(--very-lt-gray);
+    --clr-button-primary: var(--very-lt-gray);
+
+    /* font-size */
+    --fs-400: 0.938rem;
+
+    /* font-weight */
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
