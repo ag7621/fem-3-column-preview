@@ -20,8 +20,99 @@
 
     /* font-size */
     --fs-400: 0.938rem;
+    --fs-800: 2.5rem;
 
     /* font-weight */
     --fw-regular: 400;
     --fw-bold: 700;
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+body {
+    background-color: teal;
+    color: var(--clr-text-primary);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: var(--fs-400);
+    font-weight: var(--fw-regular);
+
+    display: grid;
+    place-content: center;
+}
+
+section {
+    width: 19.125rem;
+    padding: 3rem;
+}
+
+.card__container {
+    display: flex;
+}
+
+.card--sedans {
+    background-color: var(--clr-card-bg-sedans);
+}
+
+.card--suvs {
+    background-color: var(--clr-card-bg-suvs);
+}
+
+.card--luxury {
+    background-color: var(--clr-card-bg-luxury);
+}
+
+.card__title {
+    color: var(--clr-text-heading);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: var(--fs-800);
+    margin: 2rem 0;
+    text-transform: uppercase;
 }
