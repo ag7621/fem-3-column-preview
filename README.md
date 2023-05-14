@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop preview image for 3-column preview card challenge](/images/desktop-view.png "Desktop preview")
-![Mobile preview image for 3-column preview card challenge](/images/mobile-view.png "Mobile preview")
+![Desktop preview image for 3-column preview card challenge](/images/desktop-preview.png "Desktop preview")
+![Mobile preview image for 3-column preview card challenge](/images/mobile-preview.png "Mobile preview")
 
 ### Links
 
 - Solution URL: [Solution](https://github.com/ag7621/fem-3-column-preview)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site](https://ag7621.github.io/fem-3-column-preview/)
 
 ## My process
 
